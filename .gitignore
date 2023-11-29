@@ -4,3 +4,7 @@
 **/.terraform
 
 /mapstruct/target/
+/mockito/target/
+/solid/lsp/target/classes/io/reflectoring/solid/lsp/
+/junit/junit5/junit5/target/
+/java-hashes/target/classes/hashing/

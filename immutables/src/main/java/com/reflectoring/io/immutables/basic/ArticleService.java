@@ -10,6 +10,7 @@ public class ArticleService {
         Article article = ImmutableArticle.builder()
                 .id(0)
                 .content("Lorem ipsum dolor sit amet.")
+
                 .title("Lorem ipsum article!")
                 .userId(1l)
                 .build();
