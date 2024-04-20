@@ -3,6 +3,18 @@
   <groupId>io.pratik</groupId>
   <artifactId>StreamingApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>9</source>
+          <target>9</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <name>StreamingApp</name>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
